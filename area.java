@@ -6,3 +6,4 @@ public class area {
     }
     
 }
+// circle area calculation
