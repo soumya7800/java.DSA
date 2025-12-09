@@ -1,0 +1,97 @@
+public class intByInt {
+    
+    public static void main(String[] args) {
+        double x = 5/2;
+        System.out.println(x);
+        double y = 5.0;
+        double z = y/2.0;
+        System.out.println(z);
+    }
+}
+
+// output: int/int = int
+// output: double/double = double
+// output: int/double = double
+// output: double/int = double
+// output: float/float = float
+// output: float/int = float
+// output: int/float = float
+// output: double/float = double
+// output: float/double = double
+// output: long/int = long
+// output: int/long = long
+// output: long/long = long
+// output: double/long = double
+// output: long/double = double
+// output: float/long = float
+// output: long/float = float
+// output: byte/byte = byte
+// output: short/short = short
+// output: byte/short = short
+// output: short/byte = short
+// output: char/char = int
+// output: char/int = int
+// output: int/char = int
+// output: char/short = int
+// output: short/char = int
+// output: char/byte = int
+// output: byte/char = int
+// output: boolean/boolean = compile time error
+// output: boolean/int = compile time error
+// output: int/boolean = compile time error
+// output: boolean/double = compile time error
+// output: double/boolean = compile time error
+// output: boolean/float = compile time error
+// output: float/boolean = compile time error
+// output: boolean/long = compile time error
+// output: long/boolean = compile time error
+// output: boolean/char = compile time error
+// output: char/boolean = compile time error
+// output: boolean/byte = compile time error
+// output: byte/boolean = compile time error
+// output: boolean/short = compile time error
+// output: short/boolean = compile time error
+// output: boolean/boolean = compile time error
+// output: int/int = int
+// output: double/double = double
+// output: int/double = double
+// output: double/int = double
+// output: float/float = float
+// output: float/int = float
+// output: int/float = float
+// output: double/float = double
+// output: float/double = double
+// output: long/int = long
+// output: int/long = long
+// output: long/long = long 
+// output: double/long = double
+// output: long/double = double
+// output: float/long = float
+// output: long/float = float
+// output: byte/byte = byte
+// output: short/short = short
+// output: byte/short = short
+// output: short/byte = short
+// output: char/char = int
+// output: char/int = int
+// output: int/char = int
+// output: char/short = int
+// output: short/char = int
+// output: char/byte = int
+// output: byte/char = int
+// output: boolean/boolean = compile time error
+// output: boolean/int = compile time error
+// output: int/boolean = compile time error
+// output: boolean/double = compile time error
+// output: double/boolean = compile time error
+// output: boolean/float = compile time error
+// output: float/boolean = compile time error
+// output: boolean/long = compile time error
+// output: long/boolean = compile time error
+// output: boolean/char = compile time error
+// output: char/boolean = compile time error
+// output: boolean/byte = compile time error
+// output: byte/boolean = compile time error
+// output: boolean/short = compile time error
+// output: short/boolean = compile time error
+// output: boolean/boolean = compile time error
