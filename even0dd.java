@@ -13,5 +13,5 @@ if(num %2==0)
     {
       System.out.println("odd number");
     }
-  }
+}
 }
