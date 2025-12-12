@@ -7,9 +7,9 @@ public class fivedigit {
         int n = sc.nextInt();
 
         if(n >= 10000 && n <= 99999){
-            System.out.println("Mine Three Digit Number - " + n);
+            System.out.println("Mine Five Digit Number - " + n);
         } else {
-            System.out.println("It's Not Three Digit");
+            System.out.println("It's Not Five Digit");
         }
     }
 }
