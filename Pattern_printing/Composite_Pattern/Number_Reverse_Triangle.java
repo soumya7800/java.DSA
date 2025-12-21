@@ -11,13 +11,13 @@ public class Number_Reverse_Triangle
 
         for(int i=1; i<=n; i++)
         {
-            for(int j=1; j<=n-i; j++);
+            for(int j=1; j<=n-i; j++)
             {
-                System.out.println(" " + " ");
+                System.out.print("  ");
             }
                 for(int k=1; k<=i; k++)
                 {
-                    System.out.print(k + " ");
+                    System.out.print(k+" ");
                 }
                 System.out.println();
         }
@@ -26,6 +26,3 @@ public class Number_Reverse_Triangle
 
 // composite for loops are used here to print the number reverse triangle pattern.// Output:
 // Enter the number of rows: 5
-//        1 
-//       1 2
-// 
