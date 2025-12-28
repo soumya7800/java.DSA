@@ -2,7 +2,7 @@ package Array.Array_Operrations;
 
 import java.util.Arrays;
 
-public class Array_List {
+public class Array_Sorting {
     public static void main(String[] args) 
     {
         int [] arr = {15, 20, 63, 44, 59};
