@@ -15,7 +15,10 @@ public class Array_List {
         System.out.println("ArrayList elements:");
         LIST.set(0, 55);
         LIST.add(33);   
+        
         System.out.println("After updating first element and adding new element:" + LIST.size());
+        LIST.remove(2);
+        System.out.println("After removing 3rd element:" + LIST.size() );
         for(int i=0; i<LIST.size(); i++)
         {
             System.out.println(LIST.get(i));

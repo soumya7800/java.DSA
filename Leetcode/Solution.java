@@ -6,19 +6,19 @@ public class Solution {
         Map<Integer, Integer> mpp = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
-            int needed = target - num;
+            int needed = target - nums[i];
 
             if (mpp.containsKey(needed)) {
                 return new int[]{mpp.get(needed), i};
             }
 
-            mpp.put(num, i);
+            mpp.put(nums[i], i);
         }
 
         return new int[]{-1, -1};
     }
 
+    // ✅ MAIN METHOD (ENTRY POINT)
     public static void main(String[] args) {
         Solution s = new Solution();
 
