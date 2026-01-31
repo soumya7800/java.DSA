@@ -1,4 +1,3 @@
-package Strings;
 public class Why_String {
     public static void main(String[] args) {
 
