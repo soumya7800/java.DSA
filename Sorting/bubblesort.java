@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BubbleSort {
 
     public static void print(int[] arr) {
@@ -9,8 +11,15 @@ public class BubbleSort {
 
     public static void main(String[] args) {
 
-        int[] arr = {5, 1, 4, 2, 8};
-        int n = arr.length;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of elements: ");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.println("Enter the elements:");
+        for(int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        
 
         // Bubble Sort Logic
         for(int i = 0; i < n - 1; i++) {
@@ -23,6 +32,10 @@ public class BubbleSort {
             }
         }
 
+        System.out.println("Sorted array: ");
         print(arr);
     }
 }
+
+
+// after the parsing end the max element always comes at the end of the array
