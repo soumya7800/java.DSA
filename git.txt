@@ -1,0 +1,4 @@
+git add -f educore-enterprise-sms/
+>> git commit -m "Force add project files"
+>> git push
+>>
